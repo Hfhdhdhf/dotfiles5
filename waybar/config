@@ -1,0 +1,28 @@
+{
+ "layer": "top",
+ "position": "top",
+ "modules-left": ["hyprland/workspaces"],
+ "modules-center": ["clock"],
+ "modules-right": ["pulseaudio"],
+ "clock": {
+  "format": "{:%H:%M}"
+ },
+ "pulseaudio": {
+  "format": "{icon} {volume}% {format_source}",
+  "format-bluetooth": "{icon} {volume}% {format_source}",
+  "format-bluetooth-muted": " {format_source}",
+  "format-muted": "  {format_source}",
+  "format-source": " {volume}%",
+  "format-source-muted": "",
+  "format-icons": {
+    "headphone": "",
+    "hands-free": "",
+    "headset": "🎧",
+    "phone": "",
+    "portable": "",
+    "car": "",
+    "default": ["", "", ""]
+  },
+  "on-click": "pavucontrol"
+ }
+}

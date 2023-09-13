@@ -1,0 +1,23 @@
+{
+ "layer": "top",
+ "position": "bottom",
+ "height": 30,
+ "modules-left": ["custom/launcher"],
+ "modules-center": ["custom/firefox", "custom/code", "custom/files"],
+ "custom/launcher": {
+  "format": "󱓞",
+  "on-click": "ulauncher"
+ },
+ "custom/firefox": {
+  "format": "",
+  "on-click": "firefox"
+ },
+ "custom/code": {
+  "format": "󰨞",
+  "on-click": "code"
+ },
+ "custom/files": {
+  "format": "",
+  "on-click": "nautilus"
+ }
+}

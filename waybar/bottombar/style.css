@@ -1,0 +1,32 @@
+* {
+ color: white;
+}
+
+window#waybar {
+ background: transparent;
+}
+
+#custom-firefox {
+ font-size: 35;
+ margin-right: 15px;
+ margin-left: 15px;
+ color: #f77f0f;
+} 
+#custom-code {
+ font-size: 35;
+ margin-left: 5px;
+ color: #0fe3ff;
+ margin-right: 15px;
+} 
+
+#custom-files {
+ color: #5b0ff5;
+ margin-right: 5px;
+ margin-left: 5px;
+ font-size: 35;
+}
+
+#custom-launcher {
+ color: #ff1251;
+ font-size: 35;
+}
